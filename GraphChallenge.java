@@ -23,7 +23,7 @@ public class GraphChallenge {
         return str.substring(0, str.length()-1)+"}";
     }
     public static void main(String[] args) {
-        String[] strArray={"{A,B,C,D}","{A-B,B-C,B-D}","{B}"};
+        String[] strArray={"{A,B,C,D}","{A-B,B-C,B-D,A-D}","{C}"};
         System.out.println(function(strArray));
     }
 }
